@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 and CSS3 Intergration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An example of a well-structured HTML5 form with lists, tables, media, and correct use of attributes.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>HTML file Styled with CSS</h1>
+    <p>This page demonstrates a well-structured HTML5 form with lists, tables, media, and correct use of attributes.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Why choose us</h2>
+        <ul>
+            <li>Fast and reliable delivery</li>
+            <li>Affordable prices</li>
+            <li>Friendly customer support</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Service Comparison Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Plan</th>
+                    <th>Price</th>
+                    <th>Delivery Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic</td>
+                    <td>$10</td>
+                    <td>5-7 days</td>
+                </tr>
+                <tr>
+                    <td>Standard</td>
+                    <td>$20</td>
+                    <td>3-5 days</td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>$40</td>
+                    <td>1-2 days</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Promotional Video</h2>
+        <video controls width="640" height="360">
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section>
+        <h2>My Audios</h2>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            This is an audio file. 
+        </audio>
+    </section>
+
+    <section>
+        <h2>Image Gallery's Photo</h2>
+        <p>Below is a sample image:</p>
+        <figure>
+        <img src="example-image.webp" alt="Sample Image" width="300" height="200">
+        <p>This is a sample image demonstrating the use of the img tag.</p>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Sign Up Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div>
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" minlength="6" placeholder="At least 6 characters" required>
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div>
+                <label for="quantity">Order Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" value="1" required>
+            </div>
+
+            <div>
+                <label for="plan">Choose a Plan:</label>
+                <select id="plan" name="plan" required>
+                    <option value="">-- Select Plan --</option>
+                    <option value="basic">Basic</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                </select>
+            </div>
+
+            <div>
+                <p><strong>Preferred Contact Method:</strong></p>
+                <label><input type="radio" name="contact" value="email" required> Email</label>
+                <label><input type="radio" name="contact" value="phone"> Phone</label>
+            </div>
+
+            <div>
+                <label><input type="checkbox" name="terms" required> I agree to the Terms and Conditions</label>
+            </div>
+
+            <div>
+                <label for="memberid">Member ID:</label>
+                <input type="text" id="memberid" name="memberid" value="AUTO-Generated-12345" readonly>
+            </div>
+
+            <div>
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Enter any notes..."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit Form</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 HTML5 and CSS3 Styled Example . PLP July Cohort-2025 . By Jefferson Mogoi.</p>
+</footer>
+
+</body>
+</html>
